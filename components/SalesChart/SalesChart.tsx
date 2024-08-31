@@ -30,7 +30,9 @@ const SalesChart = ({ ...others }: SalesChartProps) => {
   } = useFetchData('/mocks/Sales.json');
 
   const options: any = {
-    chart: { type: 'donut', fontFamily: 'Open Sans, sans-serif' },
+
+      chart: { type: 'donut', fontFamily: "Space Grotesk, sans-serif" },
+
     legend: { show: false },
     dataLabels: { enabled: false },
     tooltip: { enabled: false },

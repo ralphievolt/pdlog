@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={openSans.className}>
       <head>
-        <title>DesignSparx - Nextjs Mantine Admin Dashboard Template</title>
+        <title>Parts Tracking Application</title>
         <link
           rel="apple-touch-icon"
           sizes="180x180"

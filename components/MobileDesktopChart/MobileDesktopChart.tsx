@@ -42,7 +42,8 @@ const MobileDesktopChart = ({ ...others }: MobileDesktopChartProps) => {
       zoom: {
         enabled: true,
       },
-      fontFamily: 'Open Sans, sans-serif',
+      fontFamily: "Space Grotesk, sans-serif",
+
     },
     dataLabels: {
       enabled: false,

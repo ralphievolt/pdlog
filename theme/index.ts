@@ -4,8 +4,10 @@ export const myTheme = createTheme({
   primaryColor: 'violet',
   defaultRadius: 'md',
   focusRing: 'always',
-  fontFamily: 'Open Sans, sans-serif',
-  headings: { fontFamily: 'Open Sans, sans-serif' },
+  fontFamily: "Space Grotesk, sans-serif",
+	headings: {
+		fontFamily: "Space Grotesk, sans-serif",
+	},
   components: {
     ActionIcon: ActionIcon.extend({
       defaultProps: {

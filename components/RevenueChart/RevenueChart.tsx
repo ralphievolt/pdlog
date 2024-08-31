@@ -36,7 +36,8 @@ const RevenueChart = ({ ...others }: RevenueChartProps) => {
     chart: {
       height: 350,
       type: 'area',
-      fontFamily: 'Open Sans, sans-serif',
+      fontFamily: "Space Grotesk, sans-serif",
+
     },
     dataLabels: {
       enabled: false,
